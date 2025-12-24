@@ -109,24 +109,26 @@ widgets:
 
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用
 
+  # <!-- Global site tag (gtag.js) - Google Analytics -->
+  # <script async src="https://www.googletagmanager.com/gtag/js?id=G-4D4ZJ9G024"></script>
+  # <script>
+  #   window.dataLayer = window.dataLayer || [];
+  #   function gtag(){dataLayer.push(arguments);}
+  #   gtag("js", new Date());
+
+  #   gtag("config", "G-4D4ZJ9G024");
+  # </script>
 slotHead: | 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4D4ZJ9G024"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-
-    gtag("config", "G-4D4ZJ9G024");
-  </script>
   <img src="https://count.getloli.com/@:rurumur0" alt=":rurumur0" />
+  <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/combine/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js,npm/pixi.js@6.5.2/dist/browser/pixi.min.js,npm/pixi-live2d-display/dist/index.min.js,gh/Weidows-projects/Live2dLoader/dist/Live2dLoader.min.js"></script>
+  <script>addEventListener("DOMContentLoaded",function(){let models=[{width:640,height:384,right:"-300px",bottom:"0px",role:"live2d_models/nahida/草神.model3.json",background:"",opacity:1,mobile:false,draggable:false,},];new Live2dLoader(models)})</script>
 
 
-slotFooter: | 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
+# slotFooter: | 
 
 # 自定义侧边栏尾部内容
-slotSidebar: |
+# slotSidebar: |
 
 # 评论框插槽
 # slotComment: | 
