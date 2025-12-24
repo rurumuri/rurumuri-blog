@@ -5,7 +5,7 @@ keywords: null
 author: rurumuri
 language: zh-CN
 timezone: 'Asia/Shanghai'
-url: http://example.com
+url: https://blog.rurumuri.com
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
